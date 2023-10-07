@@ -1,9 +1,13 @@
 <script setup>
  import Layout from '../components/Layout/Layout.vue';
+
+ import StockDataTable from '../components/StockDataTable/StockDataTable.vue';
 </script>
 
 <template>
-  <Layout></Layout>
+  <Layout>
+      <StockDataTable></StockDataTable>
+  </Layout>
 </template>
 
 <style scoped>
